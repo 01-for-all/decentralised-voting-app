@@ -1,4 +1,19 @@
-# Decentralised Election App/Decentralized Voting App: 
+# Decentralised Election App / Decentralised Voting App: 
+
+- Even though a decentralised voting app cannot be used to make money, but it can provide 
+anonymity to the voters who take part in election. `Hence it can save Democracy`. 
+- Since a blockchain is a permanent record of transactions (votes) that are distributed, every vote can irrefutably be traced back to exactly when and where it happened without revealing the voter’s identity. 
+- In addition, past votes cannot be changed, while the present can’t be hacked, because every transaction is verified by every single node in the network. And any outside or inside attacker must have control of 51% of the nodes to alter the record.
+- Even if the attacker was able to achieve that while incorrectly entering user votes with their real IDs under the radar, end to end voting systems could allow voters to verify whether their vote was correctly entered in the system, making the system extremely safe.
+
+### what are the main issues decentralised voting app solves? 
+Transparency, Security, Accessibility, Audibility which affect the democratic system today.
+
+### what is a smart contract?
+
+A contract is just like a class in Solidity which consists (its functions) and data (its state) that resides at a specific address on the Ethereum Blockchain. In each Contract, we can define State Variables, Methods, and Events, etc. A smart contract runs exactly as programmed without any possibility of downtime, censorship, fraud, and third-party interference.
+
+### voting smart contract created in Remix:
 
 ## Election DAPP Version-1.0:
 
@@ -6,6 +21,7 @@ Made a decentralised election app which can be used to conduct elections through
 
 ### Basic overview of the project structure of election dapp version-1.0 :
 
+- `[/election-v1.0/contracts/election.sol]` : This is were the election smart contract's logic is written.
 - `[/election-v1.0/contracts/migration.sol]` : This will handle all of our migration whenever we deploy our smart contracts to the blockchain.
 - `[/election-v1.0/migrations]` : This is were all the migration files live whenever we deploy our smart contracts to the blockchain. In this, we are changing its state.This same as changing the state of the database.
 - `[/election-v1.0/node_modules]` : This is were all our node dependecies live.
