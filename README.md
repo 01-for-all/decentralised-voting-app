@@ -85,3 +85,8 @@ To see the logs: `[test/truffle-logs.txt]`
 
 `$ npm run dev`
 Visit this URL in your browser: http://localhost:3000
+
+## Output of election dapp version 1.0:
+
+![version 1.0 output](VotingDapp-Output.gif)
+
