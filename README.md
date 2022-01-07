@@ -1,7 +1,6 @@
 # Decentralised Election App: 
 
-
-# Election DAPP-V1.0:
+## Election DAPP-V1.0:
 
 Made a decentralised election app which can be used to conduct elections through mobile or web app. This is just a basic version 1.0.
 
@@ -46,7 +45,7 @@ You must compile election smart contract before migrating it.
 `> truffle migrate --reset`
 You must migrate the election smart contract each time your restart ganache.
 
-To see the logs: [test/truffle-logs.txt]
+To see the logs: `[test/truffle-logs.txt]`
 
 ## Step 4. Configure Metamask:
 
@@ -61,10 +60,10 @@ Visit this URL in your browser: http://localhost:3000
 
 ### Basic overview of the project structure of Dapp:
 
-- [/election/contracts/migration.sol] : this will handle all of our migration whenever we deploy our smart contracts to the blockchain.
-- [/election/migrations] : this is were all the migration files live whenever we deploy our smart contracts to the blockchain. In this, we are changing its state.This same as changing the state of the database.
-- [/election/node_modules] : This is were all our node dependecies live.
-- [/election/src] : source directory. This is were we develop our client-side app.
-- [/election/test] : test files are kept here.
-- [/election/package.json] : This is were we specify our depedencies.
-- [/election/truffle-config.js] : main conf file for our project.
+- `[/election-v1.0/contracts/migration.sol]` : This will handle all of our migration whenever we deploy our smart contracts to the blockchain.
+- `[/election-v1.0/migrations]` : This is were all the migration files live whenever we deploy our smart contracts to the blockchain. In this, we are changing its state.This same as changing the state of the database.
+- `[/election-v1.0/node_modules]` : This is were all our node dependecies live.
+- `[/election-v1.0/src]` : Source directory. This is were we develop our client-side app.
+- `[/election-v1.0/test]` : Test files are kept here.
+- `[/election-v1.0/package.json]` : This is were we specify our depedencies.
+- `[/election-v1.0/truffle-config.js]` : Main conf file for our project.
