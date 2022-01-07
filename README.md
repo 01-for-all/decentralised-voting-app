@@ -44,6 +44,8 @@ Open the `Ganache GUI client` that you downloaded and installed Or use `ganache-
 You must compile election smart contract before migrating it.
 `> truffle migrate --reset`
 You must migrate the election smart contract each time your restart ganache.
+`>truffle test` : 
+Here smart contract is tested whether it workes according to our desire.
 
 To see the logs: `[test/truffle-logs.txt]`
 
