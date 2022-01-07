@@ -1,4 +1,4 @@
-# Decentralised Election App: 
+# Decentralised Election App/Decentralized Voting App: 
 
 ## Election DAPP Version-1.0:
 
