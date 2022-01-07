@@ -4,6 +4,16 @@
 
 Made a decentralised election app which can be used to conduct elections through mobile or web app. This is just a basic version 1.0.
 
+### Basic overview of the project structure of election dapp version-1.0 :
+
+- `[/election-v1.0/contracts/migration.sol]` : This will handle all of our migration whenever we deploy our smart contracts to the blockchain.
+- `[/election-v1.0/migrations]` : This is were all the migration files live whenever we deploy our smart contracts to the blockchain. In this, we are changing its state.This same as changing the state of the database.
+- `[/election-v1.0/node_modules]` : This is were all our node dependecies live.
+- `[/election-v1.0/src]` : Source directory. This is were we develop our client-side app.
+- `[/election-v1.0/test]` : Test files are kept here.
+- `[/election-v1.0/package.json]` : This is were we specify our depedencies.
+- `[/election-v1.0/truffle-config.js]` : Main conf file for our project.
+
 ## Dependencies
 
 - NPM:
@@ -59,13 +69,3 @@ To see the logs: `[test/truffle-logs.txt]`
 
 `$ npm run dev`
 Visit this URL in your browser: http://localhost:3000
-
-### Basic overview of the project structure of election dapp version-1.0 :
-
-- `[/election-v1.0/contracts/migration.sol]` : This will handle all of our migration whenever we deploy our smart contracts to the blockchain.
-- `[/election-v1.0/migrations]` : This is were all the migration files live whenever we deploy our smart contracts to the blockchain. In this, we are changing its state.This same as changing the state of the database.
-- `[/election-v1.0/node_modules]` : This is were all our node dependecies live.
-- `[/election-v1.0/src]` : Source directory. This is were we develop our client-side app.
-- `[/election-v1.0/test]` : Test files are kept here.
-- `[/election-v1.0/package.json]` : This is were we specify our depedencies.
-- `[/election-v1.0/truffle-config.js]` : Main conf file for our project.
