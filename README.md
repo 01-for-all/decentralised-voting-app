@@ -13,8 +13,6 @@ Transparency, Security, Accessibility, Audibility which affect the democratic sy
 
 A contract is just like a class in Solidity which consists (its functions) and data (its state) that resides at a specific address on the Ethereum Blockchain. In each Contract, we can define State Variables, Methods, and Events, etc. A smart contract runs exactly as programmed without any possibility of downtime, censorship, fraud, and third-party interference.
 
-### voting smart contract created in Remix:
-
 ## Election DAPP Version-1.0:
 
 Made a decentralised election app which can be used to conduct elections through mobile or web app. This is just a basic version 1.0.
